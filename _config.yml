@@ -1,11 +1,9 @@
-# _config.yml
-
-title: Company Profile
-logo: /asset/img/DBS_logo.jpg
-description: "Innovating with Excellence in [Industry Name]. Shaw Talebi is a leader in delivering cutting-edge solutions and unparalleled customer service."
+title: DBS Innovation Enterprise
+logo: /assets/img/DBS_logo.jpg
+description: "Innovating with Excellence in Business Solutions. DBS Innovation Enterprise is a leader in delivering cutting-edge foldable stall solutions and unparalleled customer service."
 
 # Enable or disable downloads section on your site
-Show_downloads: true
+show_downloads: true
 
 # Jekyll theme setting
 theme: jekyll-theme-minimal
@@ -16,8 +14,10 @@ navbar:
     url: "/"
   - title: "About Us"
     url: "/about"
-  - title: "Services"
-    url: "/services"
+  - title: "Our Products"
+    url: "/products"
+  - title: "Why Choose Us"
+    url: "/why-choose-us"
   - title: "Contact Us"
     url: "/contact"
   - title: "Careers"
@@ -25,33 +25,26 @@ navbar:
   - title: "Privacy Policy"
     url: "/privacy-policy"
 
-# Social Media Links (Optional)
+# Social Media Links
 social_links:
-  - name: "LinkedIn"
-    url: "https://www.linkedin.com/company/your-company"
-  - name: "Twitter"
-    url: "https://twitter.com/your-company"
   - name: "Facebook"
-    url: "https://www.facebook.com/your-company"
+    url: "https://www.facebook.com/dbsinnovation"
+  - name: "Instagram"
+    url: "https://www.instagram.com/dbsinnovation"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/company/dbsinnovation"
 
 # Footer Settings
 footer:
-  text: "© 2025 Shaw Talebi. All rights reserved."
+  text: "© 2025 DBS Innovation Enterprise. All rights reserved."
 
-# Show author information in blog (if blog exists)
-author_info: true
-
-# Disqus comments (if you plan to have a blog and want to enable comments)
-comments:
-  disqus_shortname: "your-disqus-shortname" # Replace with your Disqus shortname (if using Disqus)
-
-# SEO Settings (for better visibility in search engines)
+# SEO Settings
 seo:
-  title: "Shaw Talebi | Innovative Solutions"
-  description: "Shaw Talebi provides high-quality services and innovative solutions to businesses worldwide."
-  url: "https://www.shawtalebi.com"
+  title: "DBS Innovation Enterprise | Foldable Stall Solutions"
+  description: "DBS Innovation Enterprise provides high-quality, innovative, and portable business solutions across Malaysia."
+  url: "https://www.dbsinnovation.com"
   twitter_card: "summary_large_image"
-  twitter_site: "@ShawTalebi"
+  twitter_site: "@dbsinnovation"
 
 # Markdown extensions for content (if needed)
 markdown: kramdown
@@ -61,13 +54,10 @@ kramdown:
 # Google Analytics (Optional)
 google_analytics: "UA-XXXXXXX-X"  # Replace with your Google Analytics Tracking ID
 
-# Theme settings
-jekyll-theme-minimalist:
-  # If you have a custom header image or background image
-  header_image: "/assets/img/your-custom-header.jpg"
-  
-  # Other theme-specific settings
-  header_text_color: "#FFFFFF"  # Example to adjust the text color on header images
+# Sass configuration
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Language & Localization
 locale: en
