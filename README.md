@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DBS Innovation Enterprise</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Consider moving inline styles into styles.css for better organization -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -18,11 +16,11 @@
             padding: 20px;
         }
         nav {
-            position: fixed;
+            position: fixed; /* Fixed navigation might cover content, add padding-top to .container */
             top: 0;
             width: 100%;
             background-color: white;
-            z-index: 1000;
+            z-index: 10;
             padding: 10px 0;
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         }
@@ -42,10 +40,14 @@
             color: black;
             font-weight: bold;
             padding: 10px;
+            transition: color 0.3s ease-in-out; /* Added hover effect for better UX */
+        }
+        nav ul li a:hover {
+            color: #007bff; /* Change color on hover */
         }
         .container {
             max-width: 800px;
-            margin: 80px auto 20px auto;
+            margin: 80px auto 20px auto; /* Add more margin-top if needed due to fixed nav */
             padding: 20px;
             background: #f9f9f9;
             border-radius: 10px;
@@ -60,13 +62,7 @@
             background-color: #333;
             color: white;
         }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>DBS Innovation Enterprise</h1>
-        <p>Your trusted partner in innovative and practical business solutions.</p>
-    </header>
+
     
     <nav>
         <ul>
@@ -115,9 +111,9 @@
         
         <section id="contact-us">
             <h2>Contact Us</h2>
-            <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-            <p>Phone: +60 XXXXXXXXXX</p>
-            <p>Address: [Your Business Address]</p>
+            <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p> <!-- Replace with actual email -->
+            <p>Phone: +60 XXXXXXXXXX</p> <!-- Replace with actual phone number -->
+            <p>Address: [Your Business Address]</p> <!-- Add actual business address -->
             <p>Follow us on: <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">LinkedIn</a></p>
         </section>
         
@@ -137,4 +133,3 @@
     </footer>
 </body>
 </html>
-
