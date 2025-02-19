@@ -1,49 +1,82 @@
-# DBS Innovation Enterprise
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBS Innovation Enterprise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>DBS Innovation Enterprise</h1>
+        <p>Your trusted partner in innovative and practical business solutions.</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#our-products">Our Products</a></li>
+            <li><a href="#why-choose-us">Why Choose Us</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+            <li><a href="#careers">Careers</a></li>
+            <li><a href="#privacy-policy">Privacy Policy</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about-us">
+        <h2>About Us</h2>
+        <p>DBS Innovation Enterprise is committed to revolutionizing the business landscape with our innovative foldable stalls.</p>
+        <h3>Our Mission</h3>
+        <ul>
+            <li>Provide high-quality, durable, and versatile foldable stalls.</li>
+            <li>Support local businesses with practical and affordable solutions.</li>
+            <li>Continuously innovate to stay at the forefront of efficiency.</li>
+        </ul>
+        <h3>Our Vision</h3>
+        <p>To be the leading provider of innovative and portable business solutions across Malaysia and beyond.</p>
+    </section>
+    
+    <section id="our-products">
+        <h2>Our Products</h2>
+        <ul>
+            <li><strong>Standard Foldable Stall</strong> – Ideal for small businesses.</li>
+            <li><strong>Premium Foldable Stall</strong> – Enhanced features with additional storage.</li>
+            <li><strong>Custom Foldable Stalls</strong> – Tailored branding and design.</li>
+        </ul>
+    </section>
+    
+    <section id="why-choose-us">
+        <h2>Why Choose Us</h2>
+        <ul>
+            <li>✔ Durability & Quality</li>
+            <li>✔ Ease of Use</li>
+            <li>✔ Customization Options</li>
+            <li>✔ Competitive Pricing</li>
+            <li>✔ Customer Satisfaction</li>
+        </ul>
+    </section>
+    
+    <section id="contact-us">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <p>Phone: +60 XXXXXXXXXX</p>
+        <p>Address: [Your Business Address]</p>
+        <p>Follow us on: <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">LinkedIn</a></p>
+    </section>
+    
+    <section id="careers">
+        <h2>Careers</h2>
+        <p>Join our team and be part of an innovative company. Check our latest job openings: <a href="#">Careers Page</a></p>
+    </section>
+    
+    <section id="privacy-policy">
+        <h2>Privacy Policy</h2>
+        <p>Read our <a href="#">Privacy Policy</a> to understand how we handle your personal information.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 DBS Innovation Enterprise. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
-Welcome to the official website of **[Your Company Name]**. We are dedicated to providing high-quality services and products that exceed our customers' expectations. Explore our website to learn more about who we are, what we do, and how we can assist you.
-
-## Table of Contents
-1. [About Us](#about-us)
-2. [Services](#services)
-3. [Contact Us](#contact-us)
-4. [Careers](#careers)
-5. [Privacy Policy](#privacy-policy)
-
-## About Us
-[Your Company Name] is a leading company in the [Industry] sector, specializing in [brief description of what your company does]. Founded in [Year], we have grown to become a trusted name in delivering innovative solutions.
-
-Our mission is to:
-- [Mission point 1]
-- [Mission point 2]
-- [Mission point 3]
-
-## Services
-We offer a wide range of services to cater to your needs:
-- **Service 1**: [Brief description of service]
-- **Service 2**: [Brief description of service]
-- **Service 3**: [Brief description of service]
-- **Service 4**: [Brief description of service]
-
-## Contact Us
-We'd love to hear from you! Reach out to us through the following channels:
-- **Email**: [email@example.com]
-- **Phone**: [+1 (234) 567-890]
-- **Address**: [Company Address]
-- [Contact Form Link] (If you have a contact form on the website)
-
-## Careers
-Join our growing team! We are always looking for passionate and talented individuals to work with us. Check out our current job openings and apply today.
-- [Link to Careers page]
-
-## Privacy Policy
-Your privacy is important to us. Read our privacy policy to understand how we collect and use your personal information: [Link to Privacy Policy]
-
-## License
-This project is licensed under the [Your License] License - see the [LICENSE](LICENSE) file for details.
-
-## Contributing
-We welcome contributions! If you would like to help improve our website or suggest features, please open an issue or submit a pull request.
-
----
-
-Thank you for visiting **[Your Company Name]**! We look forward to connecting with you.
